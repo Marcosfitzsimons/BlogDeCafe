@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Café</title>
+    
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script defer src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+    <div class="contenedor">
+        <div class="barra">
+            <a href="index.html" class="logo">
+                <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+                
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header__texto centrar-texto" >
+        <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+        <p class="no-margin" class="header__texto--p">Aprende de los expertos con las mejores recetas y consejos</p>
+    </div>
+
+    </header>
+    <!-- Agregar button "Recibir informacion" y que me direccione a un formulario que tenga que completar con [First Name - LastName - E-mail]. -->
+    <!-- Corregir BEM -->
+    <main class="cursos contenedor">
+        <h2>Nuestros próximos Cursos y Talleres</h2>
+        <article class="curso">
+            <div class="curso-img">
+                <img src="img/curso1.jpg" alt="Tecnicas de extraccion de Cafe">
+            </div>
+            <div class="curso-contenido">
+                <h3 class="no-margin">Técnicas de extracción de Café</h3>
+                <ul class="curso-contenido__ul">
+                    <li class="curso-contenido__li"><strong>Precio:</strong> Gratis</li>
+                    <li class="curso-contenido__li"><strong>Cupo:</strong> 20</li>
+                </ul>
+                <p class="curso-contenido__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod pariatur praesentium odit
+                    sapiente explicabo neque perferendis iure, facere reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing el
+                    it. Ullam facilis cupiditate laboriosam exercitationem eius recusandae?
+                </p>
+                <a href="contacto.html">
+                    <input type="submit" value="Subscribirme" class="button--secundario button button--curso">
+                </a>
+            </div>
+        </article>
+        
+        <article class="curso">
+            <div class="curso-img">
+                <img src="img/curso2.jpg" alt="">
+            </div>
+            <div class="curso-contenido">
+                <h3 class="no-margin">Taller para Tostar y Moler Granos</h3>
+                <ul class="curso-contenido__ul">
+                    <li class="curso-contenido__li"><strong>Precio:</strong> Gratis</li>
+                    <li class="curso-contenido__li"><strong>Cupo:</strong> 20</li>
+                </ul>
+                <p class="curso-contenido__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod pariatur praesentium odit
+                    sapiente explicabo neque perferendis iure, facere reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing el
+                    it. Ullam facilis cupiditate laboriosam exercitationem eius recusandae?
+                </p>
+                <a href="contacto.html">
+                    <input type="submit" value="Subscribirme" class="button--secundario button button--curso">
+                </a>
+            </div>
+        </article>
+
+        <article class="curso">
+            <div class="curso-img">
+                <img src="img/curso3.jpg" alt="Tecnicas de extraccion de Cafe">
+            </div>
+            <div class="curso-contenido">
+                <h3 class="no-margin">Cuatro Recetas de Café para Principiantes</h3>
+                <ul class="curso-contenido__ul">
+                    <li class="curso-contenido__li"><strong>Precio:</strong> Gratis</li>
+                    <li class="curso-contenido__li"><strong>Cupo:</strong> 20</li>
+                </ul>
+                <p class="curso-contenido__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod pariatur praesentium odit
+                    sapiente explicabo neque perferendis iure, facere reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing el
+                    it. Ullam facilis cupiditate laboriosam exercitationem eius recusandae?
+                </p>
+                <a href="contacto.html">
+                    <input type="submit" value="Subscribirme" class="button--secundario button button--curso">
+                </a>
+            </div>
+        </article>
+    </main>
+    
+    <footer class="footer">
+        <div class="contenedor footer--barra">
+            <a href="index.html" class="logo">
+                <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+            
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
